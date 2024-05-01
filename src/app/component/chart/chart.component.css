@@ -1,0 +1,28 @@
+#card
+{
+    margin-top: 25px;
+    font-weight: bolder;
+    color: rgb(248, 126, 44);
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#content
+{
+    margin-top: 25px;
+    font-weight: bolder;
+    color: rgb(248, 126, 44);
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.slide
+{
+    margin-left: 77%;
+}
+
+#container
+{
+    margin-left: 25%;
+    margin-top: 10px;
+}
