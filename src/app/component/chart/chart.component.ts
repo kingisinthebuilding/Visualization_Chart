@@ -22,13 +22,12 @@ export class ChartComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    accessibility(Highcharts); // Initialize accessibility module
+    accessibility(Highcharts);
 
-    this.loadData(); // Load chart data
+    this.loadData();
   }
 
   loadData(): void {
-    // Call multiple API endpoints concurrently using forkJoin
     forkJoin([
       this.service.getIntensity(),
       this.service.getRelevance(),
